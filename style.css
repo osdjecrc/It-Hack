@@ -1964,4 +1964,24 @@ body {
     margin-top: 100px;
     font-size: 18px;
 }
+.problemStatement{
+    padding: 3%!important;
+    margin-left: 2%!important;
+}
+.problemStatementsButton {
+    width:15.46%;
+}
+@media screen and (max-width: 1200px){
+    .problemStatementsButton {
+        width:48%;
+        margin-bottom: 2%!important;
+    
+    }
+}
+@media screen and (max-width: 768px){
+    .problemStatementsButton {
+        width:100%;
+        margin-bottom: 2%!important;  
+      }
+}
 
