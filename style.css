@@ -1985,3 +1985,77 @@ body {
       }
 }
 
+svg {
+  position: relative;
+ 
+    font: 3em 'Montserrat';
+    width: 100%;
+    margin-top: 0px;
+    
+    background-color: transparent;
+}
+
+.text-copy {
+    fill: none;
+    stroke: black;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 3px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+    letter-spacing: 4px;
+}
+
+.text-copy:nth-child(1) {
+    stroke: #4DD0E1;
+    animation-delay: -1;
+}
+
+.text-copy:nth-child(2) {
+    stroke: #F5F5F5;
+    animation-delay: -2s;
+}
+
+.text-copy:nth-child(3) {
+    stroke: #01579B;
+    animation-delay: -3s;
+}
+
+.text-copy:nth-child(4) {
+    stroke: #4DD0E1;
+    animation-delay: -4s;
+}
+
+
+
+@keyframes stroke-offset {
+    100% {
+        stroke-dashoffset: -35%;
+    }
+}
+
+
+.hvr-float-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  /* move the element up by 5px */
+}
+.hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
+  opacity: 1;
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+  /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+}
+
+
