@@ -1985,3 +1985,51 @@ body {
       }
 }
 
+svg {
+  position: relative;
+  display: inline-block;
+    font: 3em 'Montserrat';
+    width: 100%;
+    margin-top: 0px;
+    
+    background-color: transparent;
+}
+
+.text-copy {
+    fill: none;
+    stroke: black;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 3px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+    letter-spacing: 4px;
+}
+
+.text-copy:nth-child(1) {
+    stroke: #4DD0E1;
+    animation-delay: -1;
+}
+
+.text-copy:nth-child(2) {
+    stroke: #F5F5F5;
+    animation-delay: -2s;
+}
+
+.text-copy:nth-child(3) {
+    stroke: #01579B;
+    animation-delay: -3s;
+}
+
+.text-copy:nth-child(4) {
+    stroke: #4DD0E1;
+    animation-delay: -4s;
+}
+
+
+
+@keyframes stroke-offset {
+    100% {
+        stroke-dashoffset: -35%;
+    }
+}
+
