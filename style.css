@@ -227,12 +227,28 @@ body {
     }
 }
 
+/*---------------------------------------------------
+# particle js
+----------------------------------------------------*/
+
+#particles-js{
+  width: 100%;
+  height: 155%;
+  position: absolute;
+  top: 0;
+  background-color: #1e1a1a;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
 /*------------------------------------------------------------
 # hero
 -----------------------------------------------------------*/
 .hero-content {
     padding: 220px 0;
-    background: url("images/cover.jpg") no-repeat;
+    margin-left: -7vw;
     background-size: cover;
 }
 
@@ -268,7 +284,7 @@ body {
     }
 
     .hero-content .entry-header .entry-meta-date {
-        top: 60px;
+        top: 55vh;
     }
 }
 
@@ -330,8 +346,7 @@ body {
 .content-section {
     min-height: 4640px;
     width: 100%;
-    padding-bottom: 120px;
-    background: url("images/middle-cover.jpg") no-repeat;
+    background: url("images/middle-cover.jpg");
     background-size: 100% auto;
 }
 
@@ -835,7 +850,7 @@ body {
 }
 
 .site-footer .footer-cover-title h2 {
-    font-size: 20vw;
+    font-size: 13vw;
     font-weight: 700;
     line-height: 1;
     margin-bottom: 0;
@@ -916,7 +931,7 @@ body {
 
 .footer-content-wrapper .footer-social ul a {
     padding: 5px 16px;
-    font-size: 12px;
+    font-size: 30px;
     color: hsl(0, 0%, 100%);
 }
 
@@ -948,9 +963,10 @@ body {
 ## Page Header
 ------------------------------------------------------------*/
 .page-header {
-    min-height: 520px;
+    min-height: 450px;
     padding-top: 280px;
     background-size: cover;
+    margin: 0 !important;
 }
 
 .about-us .page-header {
@@ -1577,9 +1593,22 @@ body {
 /*------------------------------------------------------------
 # site-header
 ------------------------------------------------------------*/
-.contact-page .page-header {
-    background: url("images/contact-header-background.jpg") no-repeat;
+
+.contact-page #particles-js{
+  width: 100%;
+  height: 53%;
+  position: absolute;
+  top: 0;
+  background-color: #1e1a1a;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
+
+/*.contact-page .page-header {
+    background: url("images/contact-header-background.jpg") no-repeat;
+}*/
 
 .contact-page .main-content {
     background: #fff;
@@ -1950,8 +1979,8 @@ body {
 .faq-section{
     height: 100%;
     width: 100%;
+    background: url("images/middle-cover.jpg");
     padding-bottom: 120px;
-    background: url("images/middle-cover.jpg") no-repeat;
     background-size: 100% auto;
 }
 
@@ -1985,3 +2014,17 @@ body {
       }
 }
 
+.q-content {
+    font-family: 'Baloo Bhai', cursive; 
+    margin-bottom:4px;
+    white-space: normal; 
+    text-align:left; 
+    color: black;
+}
+
+.cbtn {
+    color: white;
+    padding: 28px 6px !important;
+    background-color: black;
+    border-color: black;
+}
