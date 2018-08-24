@@ -1603,19 +1603,18 @@ body {
 
 .contact-page #particles-js{
   width: 100%;
-  height: 53%;
+  height: 53% !important;;
   position: absolute;
   top: 0;
-  background-color: #1e1a1a;
   background-image: url('');
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
 
-/*.contact-page .page-header {
-    background: url("images/contact-header-background.jpg") no-repeat;
-}*/
+.contact-page .page-header {
+  background-color: #1e1a1a;    
+}
 
 .contact-page .main-content {
     background: #fff;
