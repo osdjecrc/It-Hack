@@ -242,7 +242,7 @@ body {
   height: 1468px;
   position: absolute;
   top: 0;
-  background-color: #1e1a1a;
+  z-index: 9;
   background-image: url('');
   background-size: cover;
   background-position: 50% 50%;
@@ -256,6 +256,7 @@ body {
     padding: 220px 0;
     margin-left: -7vw;
     background-size: cover;
+    background-color: #1e1a1a;
 }
 
 .hero-content .entry-header {
@@ -2033,4 +2034,8 @@ body {
     padding: 28px 6px !important;
     background-color: black;
     border-color: black;
+}
+
+.hamburger-menu {
+    z-index: 99999;
 }
