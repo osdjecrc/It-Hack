@@ -980,9 +980,14 @@ body {
     background: url("images/about-us-header-background.jpg") no-repeat;
     background-size: cover;
 }
+@media screen and (min-width: 768px) {
+    .page-header .entry-title {
+        font-size: 72px !important;;
+    }
+}
 
 .page-header .entry-title {
-    font-size: 72px;
+    font-size: 14vw;
     color: white;
     margin: 0;
     padding: 0;
