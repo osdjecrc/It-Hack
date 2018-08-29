@@ -2043,3 +2043,13 @@ body {
 .hamburger-menu {
     z-index: 99999;
 }
+
+
+.register-btn{
+    z-index: 100;
+    position: relative;
+}
+
+row-btn{
+    z-index: 100;
+}
