@@ -6,17 +6,17 @@
     {
       date: now,
       agenda: [
-        {range: ['00:30', '08:59'], display: {h:8, m:30, a: 'am'}, location: '', desc: 'Reporting Time'},
-        {range: ['09:00', '09:29'], display: {h:9, m:30, a: 'am'}, location: '', desc: 'Hackathon Starts'},
-        {range: ['09:30', '09:59'], display: {h:10, m:30, a: 'am'}, location: '', desc: 'Judgement Round 1'},
-        {range: ['10:00', '11:59'], display: {h:11, m:30, a: 'am'}, location: '', desc: 'Refreshment Time'},
-        {range: ['10:00', '11:59'], display: {h:12, m:30, a: 'pm'}, location: '', desc: 'Quiz Time'},
-        {range: ['10:00', '11:59'], display: {h:2, m:30, a: 'pm'}, location: '', desc: 'Judgement Round2'},
-        {range: ['10:00', '11:59'], display: {h:3, m:30, a: 'am'}, location: '', desc: 'End Of Hackathon'},
-        {range: ['10:00', '11:59'], display: {h:4, m:'', a: 'am'}, location: 'Seminar Hall 501', desc: 'Presenatation of Winners'},
-        {range: ['12:00', '12:29'], display: {h:4, m:30, a: 'pm'}, location: '', desc: 'Prize Distrbutiom'},
-        {range: ['12:30', '17:59'], display: {h:4, m:30, a: 'pm'}, location: '', desc: 'Certificate Distrbutiom'},
-        {range: ['18:00', '21:15'], display: {h:5, m:'', a: 'pm'}, location: '', desc: 'Welcome to Judges'}
+        {range: ['08:30', '09:29'], display: {h:8, m:30, a: 'am'}, location: '', desc: 'Reporting Time'},
+        {range: ['09:30', '10:29'], display: {h:9, m:30, a: 'am'}, location: '', desc: 'Hackathon Starts'},
+        {range: ['10:30', '11:29'], display: {h:10, m:30, a: 'am'}, location: '', desc: 'Judgement Round 1'},
+        {range: ['11:30', '12:29'], display: {h:11, m:30, a: 'am'}, location: '', desc: 'Refreshment Time'},
+        {range: ['12:30', '14:29'], display: {h:12, m:30, a: 'pm'}, location: '', desc: 'Quiz Time'},
+        {range: ['14:30', '15:29'], display: {h:2, m:30, a: 'pm'}, location: '', desc: 'Judgement Round2'},
+        {range: ['15:30', '15:59'], display: {h:3, m:30, a: 'am'}, location: '', desc: 'End Of Hackathon'},
+        {range: ['16:00', '16:29'], display: {h:4, m:'', a: 'am'}, location: 'Seminar Hall 501', desc: 'Presenatation of Winners'},
+        {range: ['16:30', '16:59'], display: {h:4, m:30, a: 'pm'}, location: '', desc: 'Prize Distrbutiom'},
+        {range: ['16:30', '16:59'], display: {h:4, m:30, a: 'pm'}, location: '', desc: 'Certificate Distrbutiom'},
+        {range: ['17:00', '17:30'], display: {h:5, m:'', a: 'pm'}, location: '', desc: 'Welcome to Judges'}
         ]
     // },
     // {
