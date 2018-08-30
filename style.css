@@ -2053,3 +2053,7 @@ body {
 row-btn{
     z-index: 100;
 }
+.ifdb{
+  margin-left: 10%;
+  margin-right: 10%;
+}
