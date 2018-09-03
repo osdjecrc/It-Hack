@@ -466,7 +466,7 @@ body {
 
     .lineup-artists .lineup-artists-wrap .lineup-artists-description-container {
         position: absolute;
-        z-index: 99;
+        /*z-index: 99;*/
         top: 100px;
         left: -75px;
         width: calc(100% + 75px);
@@ -498,6 +498,10 @@ body {
     .lineup-artists .lineup-artists-wrap:nth-last-of-type(1) {
         margin-left: 80px;
     }
+}
+
+.mom {
+    margin-top: 20vh;
 }
 
 /*------------------------------------------------------------
