@@ -2084,5 +2084,16 @@ row-btn{
   transform: translateY(5px);
   /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
 }
+.modal-backdrop{
+  z-index: -1!important;
+}
+#myModal{
+  margin-top: 10%!important;
+}
+
+.modal-body{
+  font-size: 15px;
+
+}
 
 
