@@ -31,6 +31,14 @@ body {
     max-width: 20%;
 }
 
+.p-cont {
+    font-family: 'Arial', cursive; 
+    font-size: 23px !important; 
+    text-align: justify; 
+    word-spacing: 3px;
+    color: hsl(0, 2%, 10%) !important;
+}
+
 /*------------------------------------------------------------
 # site-header
 ------------------------------------------------------------*/
@@ -81,8 +89,8 @@ body {
 ------------------------------------------------------------*/
 /*
   Hamburger Menu
-----------------------------------------*/
-.hamburger-menu {
+  ----------------------------------------*/
+  .hamburger-menu {
     position: relative;
     width: 100%;
     max-width: 24px;
@@ -234,7 +242,7 @@ body {
 @media screen and (min-width: 1000px){
     #particles-js{
       height: 147% !important;
-    }
+  }
 }
 
 #particles-js{
@@ -2002,9 +2010,9 @@ body {
 .question a {
     font-size: 20px;
 }
-    
+
 .question{
-   
+
     margin-top: 100px;
     font-size: 18px;
 }
@@ -2019,14 +2027,14 @@ body {
     .problemStatementsButton {
         width:48%;
         margin-bottom: 2%!important;
-    
+
     }
 }
 @media screen and (max-width: 768px){
     .problemStatementsButton {
         width:100%;
         margin-bottom: 2%!important;  
-      }
+    }
 }
 
 .q-content {
